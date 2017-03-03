@@ -45,7 +45,7 @@ public class RestaurantTest {
     @Test
     public void testThatInValidPhoneNumberIsNotSaved() {
         Restaurant restaurant = new Restaurant();
-        String number = "006123456789";
+        String number = "0061234556789";
         restaurant.setNumeroDeTelephone(number);
         Assert.assertNotEquals("",number, restaurant.getNumeroDeTelephone());
     }
