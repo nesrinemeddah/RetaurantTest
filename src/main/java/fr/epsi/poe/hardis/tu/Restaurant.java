@@ -45,7 +45,7 @@ public class Restaurant {
     }
 
     public void setNumeroDeTelephone(String numeroDeTelephone) {
-       if (numeroDeTelephone != null && !"".equals(numeroDeTelephone) && numeroDeTelephone.startsWith("0033")) {
+       if (/*numeroDeTelephone != null &&*/ /*!"".equals(numeroDeTelephone) && */numeroDeTelephone.startsWith("0033")) {
                 this.numeroDeTelephone = numeroDeTelephone;
         }
     }
