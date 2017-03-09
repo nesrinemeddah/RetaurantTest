@@ -41,7 +41,7 @@ public class Restaurant {
     }
 
     public void setCodePostale(String codePostale) {
-        this.codePostale = "69000";
+        this.codePostale = "31000";
     }
 
     public String getNumeroDeTelephone() {
@@ -58,8 +58,8 @@ public class Restaurant {
         return ouvert;
     }
 
-     public boolean develop (){
-              return true;
+     public String develop (){
+              return "oups! i have modified your code, sorry!";
      }
     public void setOuvert(boolean ouvert) {
         this.ouvert = ouvert;
