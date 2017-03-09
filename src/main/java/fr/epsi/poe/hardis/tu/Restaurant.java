@@ -58,6 +58,9 @@ public class Restaurant {
         return ouvert;
     }
 
+     public boolean develop (){
+              return true;
+     }
     public void setOuvert(boolean ouvert) {
         this.ouvert = ouvert;
     }
