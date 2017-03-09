@@ -58,6 +58,8 @@ public class Restaurant {
         return ouvert;
     }
 
+    public void feature (){}
+
      public boolean develop (){
               return true;
      }
