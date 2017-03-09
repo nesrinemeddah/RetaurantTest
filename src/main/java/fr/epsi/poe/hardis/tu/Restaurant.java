@@ -1,5 +1,9 @@
 package fr.epsi.poe.hardis.tu;
 
+import javafx.scene.input.DataFormat;
+
+import java.util.Date;
+
 /**
  * Created by medda on 28/02/2017.
  */
@@ -25,7 +29,7 @@ public class Restaurant {
     }
 
     public String conflit() {
-     return ("moi test  d'abord ") ;
+     return "moi test  d'abord "+new java.util.Date().getTime();
     }
 
     public void setAdresse(String adresse) {
