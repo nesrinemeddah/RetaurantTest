@@ -43,7 +43,7 @@ public class Restaurant {
     }
 
     public void setCodePostale(String codePostale) {
-        this.codePostale = "31000";
+        this.codePostale = "69000";
     }
 
     public String getNumeroDeTelephone() {
