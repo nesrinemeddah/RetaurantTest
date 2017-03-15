@@ -72,4 +72,15 @@ public class Restaurant {
         this.nom = nom;
         this.codePostale = codePostale;
     }
+
+    @Override
+    public String toString() {
+        return "Restaurant{" +
+                "nom='" + nom + '\'' +
+                ", adresse='" + adresse + '\'' +
+                ", codePostale='" + codePostale + '\'' +
+                ", numeroDeTelephone='" + numeroDeTelephone + '\'' +
+                ", ouvert=" + ouvert +
+                '}';
+    }
 }
