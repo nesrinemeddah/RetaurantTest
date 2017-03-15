@@ -24,7 +24,7 @@ public class Restaurant {
 
     }
       public boolean  feature2() {
-        return  true;
+        return  true ;
       }
     public String getAdresse() {
         return adresse;
