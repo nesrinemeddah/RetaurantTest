@@ -23,7 +23,9 @@ public class Restaurant {
         this.nom = "scoopo";
 
     }
-
+      public boolean  feature2() {
+        return  true ;
+      }
     public String getAdresse() {
         return adresse;
     }
