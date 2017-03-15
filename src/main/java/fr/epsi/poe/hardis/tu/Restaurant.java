@@ -67,4 +67,9 @@ public class Restaurant {
         this.ouvert = ouvert;
     }
 
+    // constructeur avec paramètres
+    public Restaurant(String nom, String codePostale) {
+        this.nom = nom;
+        this.codePostale = codePostale;
+    }
 }
